@@ -35,6 +35,7 @@ validateSnapshotNodes('Node / CleanupQueue', [
 validateSnapshotNodes('Node / PrincipalRealm', [{
   children: [
     { node_name: 'process', edge_name: 'process_object' },
+    { node_name: 'Node / BaseObjectList', edge_name: 'base_object_list' },
   ],
 }]);
 
